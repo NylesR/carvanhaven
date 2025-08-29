@@ -1,12 +1,19 @@
+import NavLink from "./NavLink";
+
 export default function Navbar() {
   return (
-    <nav>
-      <ul className="navbar">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Mission</li>
-      </ul>
+    <nav className="bg-primary p-4">
+      <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="text-white font-bold text-xl mb-2 md:mb-0">
+          Carvan Haven
+        </div>
+        <ul className="flex flex-col md:flex-row gap-2 md:gap-6">
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/about">About</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
+            <NavLink href="/faq">FAQ</NavLink>
+        </ul>
+      </div>
     </nav>
   );
 }
