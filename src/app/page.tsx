@@ -3,11 +3,13 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col md:flex-row">
-        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Tempora laboriosam beatae aliquid, adipisci aperiam delectus laborum veritatis 
-          unde et! Vitae, quae perspiciatis aut vero itaque et? Est quidem rerum pariatur!</h1>
-        <p></p>
+      <div className="bg-background min-h-screen">
+        <div className="bg-background min-h-screen w-3/4 h-3/4 p-8 rounded shadow mx-auto my-8">
+          <p className="text-foreground">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Ipsa maiores voluptas explicabo placeat distinctio rem reprehenderit 
+          officia fugiat! Expedita aliquam perferendis mollitia veritatis, ducimus et dolores pariatur cum. Autem, nisi!
+        </p>
+        </div>
       </div>
     </>
   );

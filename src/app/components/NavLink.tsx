@@ -5,7 +5,7 @@ export default function NavLink({ href, children } : { href: string; children: R
     <li>
       <Link
         href={href}
-        className="text-white hover:text-blue-200 px-2 py-1 rounded"
+        className="text-accent hover:text-secondary px-2 py-1 rounded"
       >
         {children}
       </Link>
