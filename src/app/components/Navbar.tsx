@@ -11,12 +11,8 @@ export default function Navbar() {
             <NavLink href="/">Home</NavLink>
             <NavLink href="/about">About</NavLink>
             <NavLink href="/contact">Contact</NavLink>
-            <NavLink href="/faq">FAQ</NavLink>
-            <NavLink href="/location">Location</NavLink>
             <NavLink href="/rates">Rates</NavLink>
-            <NavLink href="/amenities">Amenities</NavLink>
             <NavLink href="/support">Support</NavLink>
-            <NavLink href="/login">Login</NavLink>
         </ul>
       </div>
     </nav>

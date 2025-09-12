@@ -38,3 +38,12 @@ body {
   color: var(--foreground);
   font-family: 'FunnelSans';
 }
+
+.bg-hero {
+  background-image: url('/pictures/field.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.bg-[url('/pictures/field.jpg')] {
+  background-image: url('/pictures/field.jpg');
+}
