@@ -1,19 +1,20 @@
 import Card from "./components/Card";
 import Button from "./components/Button";
+import Link from "next/dist/client/link";
 
 export default function Home() {
   return (
     <>
       <div className="bg-field min-h-screen">
         <div className="bg-background/92 w-3/4 min-h-screen p-8 rounded mx-auto">
-        <div className="bg-accent text-foreground font-bold mb-4 text-center mx-auto px-12 py-24 md:px-6 md:py-12rounded shadow">
-          <h3 className="text-2xl mb-6">
-            Welcome to CarVan Haven,
-          </h3>
-          <h2 className="text-5xl">
-            A safe haven for you and your car.
-          </h2>
-        </div>
+          <div className="bg-accent text-foreground font-bold mb-4 text-center mx-auto px-12 py-24 md:px-6 md:py-12rounded shadow">
+            <h3 className="text-2xl mb-6">
+              Welcome to CarVan Haven,
+            </h3>
+            <h2 className="text-5xl">
+              A safe haven for you and your car.
+            </h2>
+          </div>
           <div className="flex flex-col lg:flex-row gap-8">
             <Card
               header="Mission"
@@ -29,8 +30,10 @@ export default function Home() {
               provide affordable, long-term parking and basic services for people living in their cars, vans, and RVs."
             />
           </div>
-          <div className="p-4 text-center text-xl font-bold">
-            <Button>Learn More</Button>
+          <div className="p-4 text-center text-lg">
+            <Link href="/faq">
+              <Button>Learn more</Button>
+            </Link>
           </div>
         </div>
       </div>

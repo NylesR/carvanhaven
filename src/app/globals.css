@@ -5,7 +5,7 @@
   --background: #F4FEC1;
   --foreground: #121420;
   --primary: #465f40;
-  --secondary: #00A7E1;
+  --secondary: #3aceff;
   --accent: #d9f9a5;
 }
 
@@ -86,3 +86,17 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.bg-faq {
+  background-image: url('/pictures/faq.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-donate {
+  background-image: url('/pictures/donate.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+

@@ -4,12 +4,12 @@ import NavLink from "./NavLink";
 
 export default function Navbar() {
   return (
-    <nav className="bg-primary p-4">
+    <nav className="bg-primary p-6 shadow-lg">
       <div className="flex items-center justify-between">
         <div className="text-accent font-bold text-xl">
-          <a href="/">Carvan Haven</a>
+          <a href="/">CarVan Haven</a>
         </div>
-        
+
         {/* Hamburger Menu Button - Mobile Only */}
         <button
           className="md:hidden text-white focus:outline-none hamburger-menu"
@@ -18,7 +18,7 @@ export default function Navbar() {
             const mobileMenu = document.querySelector('.mobile-menu');
             const hamburgerIcon = document.querySelector('.hamburger-icon');
             const closeIcon = document.querySelector('.close-icon');
-            
+
             if (mobileMenu?.classList.contains('hidden')) {
               mobileMenu.classList.remove('hidden');
               hamburgerIcon?.classList.add('hidden');
@@ -61,9 +61,8 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6">
           <NavLink href="/">Home</NavLink>
-          <NavLink href="/about">About</NavLink>
-          <NavLink href="/contact">Contact</NavLink>
           <NavLink href="/faq">FAQ</NavLink>
+          <NavLink href="/donate">Donate</NavLink>
         </ul>
       </div>
 
@@ -71,9 +70,8 @@ export default function Navbar() {
       <div className="md:hidden mobile-menu hidden mt-4">
         <ul className="flex flex-col gap-2">
           <NavLink href="/">Home</NavLink>
-          <NavLink href="/about">About</NavLink>
-          <NavLink href="/contact">Contact</NavLink>
           <NavLink href="/faq">FAQ</NavLink>
+          <NavLink href="/donate">Donate</NavLink>
         </ul>
       </div>
     </nav>
