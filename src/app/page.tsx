@@ -5,8 +5,8 @@ import Button from "./components/Button";
 export default function Home() {
   return (
     <>
-      <div className="bg-background min-h-screen">
-        <div className="bg-hero min-h-screen w-3/4 h-3/4 p-8 rounded shadow mx-auto my-8">
+      <div className="bg-hero min-h-screen">
+        <div className="bg-background w-3/4 h-3/4 p-8 rounded shadow mx-auto my-8">
           <h2 className="text-foreground text-5xl font-bold mb-4 text-center mx-auto px-12 py-24 rounded shadow">
             A safe haven for you and your car
           </h2>
