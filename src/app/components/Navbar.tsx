@@ -6,8 +6,8 @@ export default function Navbar() {
   return (
     <nav className="bg-primary p-4">
       <div className="flex items-center justify-between">
-        <div className="text-white font-bold text-xl">
-          Carvan Haven
+        <div className="text-accent font-bold text-xl">
+          <a href="/">Carvan Haven</a>
         </div>
         
         {/* Hamburger Menu Button - Mobile Only */}
@@ -63,8 +63,7 @@ export default function Navbar() {
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/contact">Contact</NavLink>
-          <NavLink href="/rates">Rates</NavLink>
-          <NavLink href="/support">Support</NavLink>
+          <NavLink href="/faq">FAQ</NavLink>
         </ul>
       </div>
 
@@ -74,8 +73,7 @@ export default function Navbar() {
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/contact">Contact</NavLink>
-          <NavLink href="/rates">Rates</NavLink>
-          <NavLink href="/support">Support</NavLink>
+          <NavLink href="/faq">FAQ</NavLink>
         </ul>
       </div>
     </nav>
