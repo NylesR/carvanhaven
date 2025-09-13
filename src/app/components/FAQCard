@@ -1,8 +1,0 @@
-export default function FAQCard({ question, answer }: { question: string; answer: string }) {
-    return (
-        <div className="bg-accent text-center p-8 rounded shadow flex-1 hover:scale-105 transition-transform duration-300">
-            <h2 className="text-3xl font-bold mb-2">{question}</h2>
-            <p className="text-foreground text-xl">{answer}</p>
-        </div>
-    )
-}
