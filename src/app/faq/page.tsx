@@ -8,7 +8,7 @@ export default function FAQ() {
     <>
       <div className="bg-faq min-h-screen">
         <div className="bg-background/92 w-screen md:w-3/4 min-h-screen p-8 rounded mx-auto">
-          <div className="bg-accent w-7/8 md:w-3/4 text-foreground font-bold mb-4 text-center mx-auto p-12 md:px-6 rounded shadow">
+          <div className="text-foreground w-7/8 md:w-3/4 text-charcoal font-bold mb-4 text-center mx-auto p-12 md:px-6 rounded">
             <h2 className="text-2xl md:text-5xl">
               Frequently Asked Questions
             </h2>

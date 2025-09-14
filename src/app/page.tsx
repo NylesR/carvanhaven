@@ -5,9 +5,9 @@ import Link from "next/dist/client/link";
 export default function Home() {
   return (
     <>
-      <div className="bg-field min-h-screen">
+      <div className="bg-forest min-h-screen">
         <div className="bg-background/92 w-screen min-h-screen md:w-3/4 p-8 rounded mx-auto">
-          <div className="bg-accent text-foreground font-bold mb-4 text-center mx-auto px-12 py-12 md:py-24 md:px-6 md:py-12rounded shadow">
+          <div className="bg-foreground text-charcoal font-bold mb-4 text-center mx-auto px-12 py-12 md:py-24 md:px-6 md:py-12rounded shadow">
             <h3 className="text-2xl mb-6">
               Welcome to CarVan Haven,
             </h3>
