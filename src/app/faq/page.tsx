@@ -7,13 +7,13 @@ export default function FAQ() {
   return (
     <>
       <div className="bg-faq min-h-screen">
-        <div className="bg-background/92 w-3/4 min-h-screen p-8 rounded mx-auto">
-          <div className="bg-accent w-5/8 text-foreground font-bold mb-4 text-center mx-auto p-12 md:px-6 rounded shadow">
-            <h2 className="text-4xl md:text-3xl">
+        <div className="bg-background/92 w-screen md:w-3/4 min-h-screen p-8 rounded mx-auto">
+          <div className="bg-accent w-7/8 md:w-3/4 text-foreground font-bold mb-4 text-center mx-auto p-12 md:px-6 rounded shadow">
+            <h2 className="text-2xl md:text-5xl">
               Frequently Asked Questions
             </h2>
           </div>
-          <div className="flex justify-center gap-8 mb-8">
+          <div className="flex items-center flex-col md:flex-row md:justify-center gap-8 mb-8">
             <Link href="#for-investors">
               <Button>For Investors</Button>
             </Link>

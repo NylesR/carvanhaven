@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import NavLink from "./NavLink";
 
 export default function Navbar() {
@@ -7,7 +8,7 @@ export default function Navbar() {
     <nav className="bg-primary p-6 shadow-lg">
       <div className="flex items-center justify-between">
         <div className="text-accent font-bold text-xl">
-          <a href="/">CarVan Haven</a>
+          <Link href="/">CarVan Haven</Link>
         </div>
 
         {/* Hamburger Menu Button - Mobile Only */}

@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <>
       <div className="bg-field min-h-screen">
-        <div className="bg-background/92 w-3/4 min-h-screen p-8 rounded mx-auto">
-          <div className="bg-accent text-foreground font-bold mb-4 text-center mx-auto px-12 py-24 md:px-6 md:py-12rounded shadow">
+        <div className="bg-background/92 w-screen min-h-screen md:w-3/4 p-8 rounded mx-auto">
+          <div className="bg-accent text-foreground font-bold mb-4 text-center mx-auto px-12 py-12 md:py-24 md:px-6 md:py-12rounded shadow">
             <h3 className="text-2xl mb-6">
               Welcome to CarVan Haven,
             </h3>
-            <h2 className="text-5xl">
+            <h2 className="text-3xl">
               A safe haven for you and your car.
             </h2>
           </div>
@@ -25,7 +25,7 @@ export default function Home() {
               text="Our vision is to create a community where everyone has access to safe and affordable living."
             />
             <Card
-              header="Plan"
+              header="Upcoming Plans"
               text=" CarVan Haven is launching its first California community in late 2025. This safe, scalable model will 
               provide affordable, long-term parking and basic services for people living in their cars, vans, and RVs."
             />
